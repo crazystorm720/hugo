@@ -1,0 +1,79 @@
+baseURL: "http://localhost:1313/"
+languageCode: 'en-us'
+title: 'Dynamit Impact Marketing'
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: services
+      name: Services
+      url: /services/
+      weight: 20
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 30
+    - identifier: bookings
+      name: Secure Bookings
+      url: https://example.org
+      weight: 40
+
+params:
+  env: production
+  title: "Dynamit Impact Marketing"
+  description: "Specializing in Ads Management through Analytics and ML/AI Workloads"
+  keywords: [Marketing, Ads Management, Analytics, Machine Learning, AI]
+  author: Dynamit Impact Marketing
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Welcome to Dynamit Impact Marketing"
+    Content: "We specialize in ads management through analytics and ML/AI workloads to make informed campaign decisions."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: linkedin
+      url: "https://linkedin.com/"
+    - name: twitter
+      url: "https://twitter.com/"
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
